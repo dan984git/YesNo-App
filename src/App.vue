@@ -1,16 +1,19 @@
 <template>
-  <div>
+  <div>    
+    <Counter title="Counter"/>
     <Indecition />
   </div>
 </template>
 
 <script>
 import Indecition from "./components/Indecition.vue";
+import Counter from "./components/Counter.vue";
 
 export default {
   name: "App",
   components: {
     Indecition,
+    Counter
   },
 };
 </script>
